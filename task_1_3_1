@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>三栏式布局</title>
+<style type="text/css">
+
+body{
+	margin:0px;
+    height: 100%;
+}
+
+.wrapper{
+		 margin: 20px;
+		 padding: 20px;
+         overflow:hidden;
+         border: 1px solid #999;
+         background-color: #eee;
+         min-width: 880px;
+}
+
+
+.left{
+	background-color: #fff;
+	border: 1px solid #999;
+	float: left;
+	width: 200px;
+	height: 100%;
+}
+
+.middle{
+ 	border: 1px solid #999;
+ 	background-color: #fff;
+    height: 100%;
+    margin-left:220px;
+    margin-right: 140px;
+    padding: 20px;
+}
+
+.right{
+	background-color: #fff;
+	border: 1px solid #999;
+	float: right;
+	width: 120px;
+	height: 100%;
+}
+ 
+
+img{
+	display: block;
+	padding: 10px;
+	margin: 10px;
+} 
+
+.image1,.image2,.image3,.image4{
+	width: 80px;
+	height: 80px;
+}
+
+.team-logo{
+	padding: 15px;
+	background-color: #9da;
+	width: 110px;
+	height: 110px;
+	line-height:110px;
+	margin:30px;
+    border-radius: 50px;
+    font-weight: bold;
+    color: #fff;
+
+}
+
+.team-name{
+	text-align: center;
+	font-weight: bold;
+	padding: 10px;
+}
+
+</style>
+</head>
+<body>
+	<div class="wrapper">
+
+		<div class="left">
+			<div class="team-logo">Bootstornado</div>
+			<div class="team-name">Bootstornado小分队</div>
+
+		</div>
+
+
+		<div class="right">
+		    <img src="http://tb.himg.baidu.com/sys/portrait/item/bacc6c696e6b73796561726b53" alt="图片链接失效" class="image1">
+			<img src="http://tb.himg.baidu.com/sys/portrait/item/829ce783a8e7858a636f6c640a2e" alt="图片链接失效" class="image2">
+			<img src="http://tb.himg.baidu.com/sys/portrait/item/8c38613331333830353937334f28" alt="图片链接失效" class="image3">
+			<img src="http://tb.himg.baidu.com/sys/portrait/item/a22568616f7169666c796e35" alt="图片链接失效" class="image4">
+		</div>
+			
+		
+		
+
+
+		<div class="middle">
+		<h1>关于我们</h1><br />
+		<p>我们很可爱，我们一共四个人。</p>
+		<p>我们很可爱，我们一共四个人。</p>
+		<p>我们很可爱，我们一共四个人。</p>
+		<p>我们很可爱，我们一共四个人。</p>
+		</div>
+           
+		
+	</div>
+
+
+
+</body>
+</html>
