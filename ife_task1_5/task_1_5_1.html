@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>任务五：零基础HTML及CSS编码（二）</title>
+<link rel="stylesheet" type="text/css" href="style_1_5.css">
+</head>
+
+<body>
+   
+
+<nav id="topnav">
+	<div class="logo"><a href="http://ife.baidu.com">Bai❤du</a></div>
+	<ul class="navlist">
+		<li><a href="#C4">Chapter 4</a></li>
+		<li><a href="#C3">Chapter 3</a></li>
+		<li><a href="#C2">Chapter 2</a></li>
+		<li><a href="#C1">Chapter 1</a></li>
+	</ul>
+</nav>
+
+
+
+<!--固定宽度部分置于自适应部分的前面-->
+
+<aside id="sidebar">
+<h3>这里以后是个侧栏，这是侧栏的标题</h3>
+
+    <form>
+       <table><!--以下prompt、tdright与tdleft类名将用于CSS控制表单文本位置, 利于后期维护-->
+
+        <tr>
+            <td class="tdright">请输入邮箱地址</td>
+            <td class="tdleft"><input type="text" name="emailaddress" value="" placeholder="这是一个文本输入框" /></td>
+        </tr>
+            
+        <tr>
+            <td class="tdright"></td>
+            <td class="prompt tdleft">邮箱地址请按要求格式输入</td>
+        </tr>
+
+        
+
+        <tr>
+            <td class="tdright">请输入密码</td>
+            <td class="tdleft"><input type="password" name="password1" value="123456789" /></td>
+        </tr>
+
+
+        <tr>
+            <td class="tdright">请重新输入密码</td>
+            <td class="tdleft"><input type="password" name="password1" value="123456789" /></td>
+        </tr>
+
+        <tr>
+            <td class="tdright"></td>
+            <td class="prompt tdleft">密码为6-16位英文或数字</td>
+        </tr>
+        
+        <tr>
+            <td class="tdright">性别</td>
+            <td class="tdleft"><input type="radio" checked="checked" name="sex" value="male" />男
+                               <input type="radio" name="sex" value="female" />女
+            </td>
+        </tr>
+
+        
+        <tr>
+            <td class="tdright">城市</td>
+            <td class="tdleft">
+                <select name="city">
+                    <option value="北京">北京</option>
+                    <option value="广州">广州</option>
+                    <option value="上海">上海</option>
+                    <option value="杭州">杭州</option>
+                </select>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td class="tdright">爱好</td>
+            <td class="tdleft">
+                <input type="checkbox" name="interest" value="sports" />运动
+                <input type="checkbox" name="interest" value="art" />艺术
+                <input type="checkbox" name="interest" value="science" />科学
+            </td>
+        </tr>
+
+
+        <tr>    <!--“个人描述”纵向方位及输入框宽高将采用css样式定义，有利于后期维护-->
+            <td class="tdright tdtop">个人描述</td>
+            <td class="tdleft">
+                <textarea placeholder="这是一个多行输入框，输入您的个人描述"></textarea>
+                
+            </td>
+        </tr>
+    </table>
+        <input id="confirm" type="button" value="确认提交" />
+</form>
+    
+</aside>
+
+
+
+
+
+<section id="main">
+	<article class="part1">
+		
+		<h2><a href="#C1" name="C1">Chapter 1</a></h2>
+    		<h3>二级标题</h3>
+    		<address>作者</address>
+    		<time>日期 20160101</time><br />
+    		<p>我是文章段落组成部分我是文章段落组成部分我是文章段落组成部分我是文章段落组成部分我是文章段落组成部分我是文章段落组成部分我是文章段落组成部分我是文章段落组成部分我是文章段落组成部分我是文章段落组成部分我是文章段落组成部分</p>
+    		<p>我是文章段落组成部分我是文章段落组成部分我是文章段落组成部分我是文章段落组成部分我是文章段落组成部分我是文章段落组成部分我是文章段落组成部分我是文章段落组成部分我是文章段落组成部分我是文章段落组成部分我是文章段落组成部分<a href="http://ife.baidu.com">这里有一个链接链接到http://ife.baidu.com</a>我是文章段落组成部分我是文章段落组成部分我是文章段落组成部分我是文章段落组成部分。</p>
+
+    		<img src="http://s9.sinaimg.cn/middle/65fec3abg7a2443b1c558&690" alt="好看的图片">
+        
+            <p>我是文章段落组成部分我是文章段落组成部分我是文章段落组成部分我是文章段落组成部分我是文章段落组成部分我是文章段落组成部分我是文章段落组成部分我是文章段落组成部分我是文章段落组成部分我是文章段落组成部分我是文章段落组成部分。</p>
+    </article>
+    
+
+    <article class="part2">
+    	<h2><a href="#C2" name="C2">Chapter 2</a></h2>
+    	<h3>二级标题</h3>
+    	<address>作者</address>
+    	<time>日期 20160101</time>
+        <br />
+    	<p>我是文章段落组成部分我是文章段落组成部分我是文章段落组成部分我是文章段落组成部分我是文章段落组成部分我是文章段落组成部分我是文章段落组成部分我是文章段落组成部分我是文章段落组成部分我是文章段落组成部分我是文章段落组成部分</p>
+		<p>我是文章段落组成部分我是文章段<a href="http://ife.baidu.com">这里有一个链接链接到http://ife.baidu.com</a>落组成部分我是文章段落组成部分我是文章段落组成部分我是文章段落组成部分我是文章段落组成部分我是文章段落组成部分我是文章段落组成部分我是文章段落组成部分我是文章段落组成部分我是文章段落组成部分。</p>
+		 <img src="https://images.unsplash.com/photo-1452800185063-6db5e12b8e2e?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=c20edde459d588310aa3dd6a7d7d5446" alt="好看的图片">
+		<ul class="itemlist">
+			<li>列表项目一</li>
+			<li>列表项目一</li>
+			<li>列表项目一</li>
+			<li>列表项目一</li>
+		</ul>
+		
+    </article>
+
+
+
+
+    <article class="part3">
+        <h2><a href="#C3" name="C3">Chapter 3</a></h2>
+        <h3>图片</h3><br />
+        <dl>
+            <dt>好看的图片</dt>
+            <dd><img src="http://img5.cache.netease.com/henan/2012/7/6/201207061556273fe88.jpg" alt="好看的图片"></dd>
+        </dl>
+        <dl>
+            <dt>好看的图片</dt>
+            <dd><img src="http://img5.cache.netease.com/henan/2012/7/6/201207061556273fe88.jpg" alt="好看的图片"></dd>
+        </dl>
+        <dl>
+            <dt>好看的图片</dt>
+            <dd><img src="http://img5.cache.netease.com/henan/2012/7/6/201207061556273fe88.jpg" alt="好看的图片"></dd>
+        </dl>
+        <dl>
+            <dt>好看的图片</dt>
+            <dd><img src="http://img5.cache.netease.com/henan/2012/7/6/201207061556273fe88.jpg" alt="好看的图片"></dd>
+        </dl>
+        <dl>
+            <dt>好看的图片</dt>
+            <dd><img src="http://img5.cache.netease.com/henan/2012/7/6/201207061556273fe88.jpg" alt="好看的图片"></dd>
+        </dl>
+        <dl>
+            <dt>好看的图片</dt>
+            <dd><img src="http://img5.cache.netease.com/henan/2012/7/6/201207061556273fe88.jpg" alt="好看的图片"></dd>
+        </dl>
+        <dl>
+            <dt>好看的图片</dt>
+            <dd><img src="http://img5.cache.netease.com/henan/2012/7/6/201207061556273fe88.jpg" alt="好看的图片"></dd>
+        </dl>
+        <dl>
+            <dt>好看的图片</dt>
+            <dd><img src="http://img5.cache.netease.com/henan/2012/7/6/201207061556273fe88.jpg" alt="好看的图片"></dd>
+        </dl>
+        <dl>
+            <dt>好看的图片</dt>
+            <dd><img src="http://img5.cache.netease.com/henan/2012/7/6/201207061556273fe88.jpg " alt="好看的图片"></dd>
+        </dl>
+        <dl>
+            <dt>好看的图片</dt>
+            <dd><img src="http://img5.cache.netease.com/henan/2012/7/6/201207061556273fe88.jpg" alt="好看的图片"></dd>
+        </dl>
+        <div class="pic-clear"></div>
+     </article>
+    
+
+   
+
+
+
+    <article class="part4">
+    	<h2><a href="#C4" name="C4">Chapter 4</a></h2>
+    	<h3>表格</h3>
+    	<address>作者</address>
+    	<time>日期 20160101</time>
+    	<ol class="ranklist">
+    		<li>排名一</li>
+    		<li>排名二</li>
+    		<li>排名三</li>
+    	</ol><br />
+
+    	<table class="table1" border="1">
+    		<tr class="trhead">
+    			<th align="left">表头</th>
+    			<th align="left">表头</th>
+    			<th align="left">表头</th>
+    		</tr>
+    		<tr>
+    			<td>表内单元格</td>
+    			<td>表内单元格</td>
+    			<td><a href="http://ife.baidu.com" target="_blank">操作</a></td>
+    		</tr>
+    		<tr>
+    			<td>表内单元格</td>
+    			<td>表内单元格</td>
+    			<td><a href="http://ife.baidu.com" target="_blank">操作</a></td>
+    		</tr>
+    		<tr>
+    			<td>表内单元格</td>
+    			<td>表内单元格</td>
+    			<td><a href="http://ife.baidu.com" target="_blank">操作</a></td>
+    		</tr>
+    		<tr class="trfoot">
+    			<td>总计</td>
+    			<td colspan="2">1000</td>
+    			
+    		</tr>
+
+    		
+    	</table>
+
+
+    </article>
+
+</section>
+
+
+
+
+<footer>
+    <p id="foot">版权所有&copy</p>
+</footer>
+
+
+
+</body>
+</html>
